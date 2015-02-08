@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.material.widget.Switch
+        android:id="@+id/mswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.material.widget.RadioButton
+        android:id="@+id/radiobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.material.widget.CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.material.widget.CircleButton
+        android:id="@+id/circlebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        widget:circle_icon="@drawable/ic_add" />
+
+    <com.material.widget.PaperButton
+        android:id="@+id/pagebtn"
+        android:layout_width="160dp"
+        android:layout_height="54dp"
+        widget:paper_text="Paper Button" />
+
+    <com.material.widget.CircularProgress
+        android:id="@+id/circleprogress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        widget:circular_progress_size="Normal" />
+
+    <com.material.widget.LinearProgress
+        android:id="@+id/lineprogress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp" />
+
+    <com.material.widget.Slider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+</LinearLayout>
